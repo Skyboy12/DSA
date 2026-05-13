@@ -1,0 +1,10 @@
+
+# Ignore everything
+*
+# But do not ignore directories (so unignored files in subdirs are reachable)
+!*/
+# Allow all .cpp files (root and subdirectories)
+!*.cpp
+!**/*.cpp
+# Keep .gitignore tracked
+!.gitignore
